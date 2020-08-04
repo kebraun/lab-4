@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>#1 Vending Machine</h1>
+    <div class="vending">
+      <p class="total"></p>
+      <button class="button" data-amount="2">Lime Cola<br />$2.00</button>
+      <button class="button" data-amount="3">
+        Salted Peanuts<br />$3.00
+      </button>
+      <button class="button" data-amount="4">Chocolate Bar<br />$4.00</button>
+      <button class="button" data-amount="6">Fruit Gummies<br />$6.00</button>
+    </div>
+    <h1>#2 Make Money</h1>
+    <form>
+      <label for="number">How Many?</label>
+      <input type="number" id="number" name="number" min="0" />
+      <label for="coin">Which coin?</label>
+      <select name="coin" id="coin">
+        <option value="Penny" data-amount=".01" class="penny">Penny</option>
+        <option value="Nickel" data-amount=".05" class="nickle">Nickel</option>
+        <option value="Dime" data-amount=".1" class="dime">Dime</option>
+        <option value="Quarter" data-amount=".25" class="quarter"
+          >Quarter</option
+        >
+      </select>
+      <button class="make-money button">Make Money!</button>
+    </form>
+    <h1>#3 Light Bulb</h1>
+    <div class="bulb"><p>Light Bulb</p></div>
+    <button class="bulb-button bulb-on">On</button>
+    <button class="bulb-button bulb-off">Off</button>
+    <button class="bulb-button bulb-toggle">Toggle</button>
+    <button class="bulb-button bulb-end">End</button>
+    <script src="script.js"></script>
+  </body>
+</html>

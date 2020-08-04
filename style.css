@@ -1,0 +1,74 @@
+.button {
+    background-color: rgb(37, 197, 197);
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.bulb-button {
+    background-color: rgb(37, 197, 197);
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 24px;
+}
+
+.bulb {
+    background-color: rgb(118, 118, 118);
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.on {
+    background-color: rgb(230, 230, 230);
+}
+
+.off {
+    background-color: rgb(118, 118, 118);
+}
+
+.toggle {
+    background-color: red;
+}
+
+.penny {
+    background-color: rgb(159, 85, 0);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.nickle {
+    background-color: grey;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.dime {
+    background-color: grey;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.quarter {
+    background-color: grey;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+
